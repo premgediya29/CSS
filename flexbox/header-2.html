@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>header</title>
+	<style type="text/css">
+		header{
+			width: 100%;
+			height: 120px;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.sub-header{
+			width: 80%;
+			height: 120px;
+/*			border: 1px solid black;*/
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.logo{
+			flex-basis: 18%;
+			border: 1px solid black;
+			border-radius: 20px;
+			background: gray;
+		}
+		.logo a{
+			text-decoration: none;
+			font-size: 40px;
+			font-weight: bold;
+			text-shadow: 3px 5px 3px black;
+			color: red;
+
+		}
+		nav{
+			flex-basis: 50%;
+/*			border: 1px solid black;*/
+		}
+		nav ul{
+			display: flex;
+			align-items: center;
+			justify-content: space-evenly
+		}
+		nav ul li{
+			list-style: none;
+		}
+		nav ul li a{
+			text-decoration: none;
+			font-size: 25px;
+		}
+		section {
+			width: 100%;
+			height: 800px;
+/*			border-bottom: 1px solid black;*/
+			box-shadow: 4px 4px 5px 5px gray;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 5px;
+		}
+		.main{
+			width: 80%;
+			height: 500px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.abt-img{
+			flex-basis: 45%;
+			height: inherit;
+		}
+		.abt-img img{
+			width: 100%;
+			height: 100%;
+		}
+		.abt-inf{
+			flex-basis: 45%;
+			height: inherit;
+		}
+		.abt-inf h1{
+			font-size: 60px;
+			transition: 2s;
+		}
+		.abt-inf h1:hover{
+			text-shadow: 4px 4px 2px blue;
+			
+		}
+		.abt-inf p{
+			font-size: 30px;
+			
+		}
+		.pro{
+			width: 80%;
+			height: 800px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.pro-itm
+		{
+			flex-basis: 23%;
+			height: 250px;
+		}
+		.pro-itm img{
+			width: 100%;
+			height: 80%;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="sub-header">
+			<div class="logo">
+				<a href="">Red and white</a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section>
+		<div class="main">
+			<div class="abt-img">
+				<img src="img4.jpg">
+			</div>
+			<div class="abt-inf">
+				<h1>About us</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+	</section>
+
+ <section>
+ 	<div class="pro">
+ 		<div class="pro-itm">
+ 			<img src="img2.png">
+ 			<h2>New Arrival</h2>
+ 		</div>
+ 		<div class="pro-itm">
+ 			<img src="img3.jpg">
+ 			<h2>New Arrival</h2>
+ 		</div>
+  		<div class="pro-itm">
+ 			<img src="img5.png">
+ 			<h2>New Arrival</h2>
+ 		</div>
+ 		<div class="pro-itm">
+ 			<img src="img2.png">
+ 			<h2>New Arrival</h2>
+ 		</div>
+ 		<div class="pro-itm">
+ 			<img src="img3.jpg">
+ 			<h2>New Arrival</h2>
+ 		</div>
+  		<div class="pro-itm">
+ 			<img src="img5.png">
+ 			<h2>New Arrival</h2>
+ 		</div>
+ 		 		<div class="pro-itm">
+ 			<img src="img2.png">
+ 			<h2>New Arrival</h2>
+ 		</div>
+ 		<div class="pro-itm">
+ 			<img src="img3.jpg">
+ 			<h2>New Arrival</h2>
+ 		</div>
+
+ 	</div>
+ </section>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
