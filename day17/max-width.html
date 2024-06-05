@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Max-width</title>
+	<style type="text/css">
+		div{
+			width: 100%;
+			height: 500px;
+			border: 1px solid black;
+		}
+		@media(max-width:980px)
+		{
+			div{
+				background: yellow;
+			}
+		}
+		@media(max-width:720px)
+		{
+			div{
+				background: lime;
+			}
+		}
+		@media(max-width:480px)
+		{
+			div{
+				background: red;
+			}
+		}
+	</style>
+</head>
+<body>
+
+
+	<div></div>
+
+</body>
+</html>
