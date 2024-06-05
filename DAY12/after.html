@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>After</title>
+	<style type="text/css">
+		a{
+			text-decoration: none;
+			font-size: 25px;
+			position: relative;
+		}
+		a::after{
+			content: " ";
+			height: 5px;
+			width: 10%;
+			background: blue;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			transition: 5s;
+		}
+		a:hover::after{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<a href="">Click here</a>
+
+</body>
+</html>

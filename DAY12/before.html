@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Before</title>
+	<style type="text/css">
+	ul li{
+		display: inline-block;
+		font-size: 25px;
+		padding: 10px;
+		position: relative;
+	}
+	li::before{
+		content: " ";
+		height: 5px;
+		width: 0%;
+		background: blue;
+		position: absolute;
+		transition: 5s;
+	}
+	li:hover::before{
+		width: 100%;
+	}
+
+	</style>
+</head>
+<body>
+	
+
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Product</li>
+			<li>Service</li>
+			<li>Contact us</li>
+		</ul>
+</body>
+</html>

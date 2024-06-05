@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bg-effect</title>
+	<style type="text/css">
+		header{
+			width: 100%;
+			height: 100vh;
+			background-image: url(bg.jpg);
+			position: relative;
+			border: 1px solid black;
+
+		}
+		header::before{
+			content: "";
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(red,blue,black,lime,yellow,gray,purple);
+			position: absolute;
+			top: 0;
+			opacity: 0.4;
+
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		
+	</header>
+
+</body>
+</html>
