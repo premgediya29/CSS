@@ -1,0 +1,30 @@
+simple mobiles		0px to 360px
+touch screen 		360px to 480px
+smart phone		480px to 720px
+tablet-v		720px to 980px
+tablet-h		980px to 1200px	
+laptop/desktop		1200px to 1400px
+smart tv		1400px to.....		
+
+
+
+What is media query..??
+one kind of css that is define for different,
+
+how and where to apply media query..??
+there are two ways to create media query..
+1-inside css file at the end of css
+2-create separate file and save with .css and link it with html
+
+@media()
+@media screen()
+@media screen only()
+
+
+What is min-width..??
+it is a starting point from where mediaquery applied
+
+What is max-width...???
+it is ending point where mediaquery stoped
+
+
